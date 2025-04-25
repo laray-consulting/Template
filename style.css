@@ -1,0 +1,297 @@
+body {
+    width: 8.5in; /* 8.5 pulgadas de ancho */
+    height: 11in; /* 11 pulgadas de alto */
+    margin:auto; /* Eliminar margen */
+    padding: 10px; /* Eliminar relleno */
+}        
+table {       
+    width: 100%;
+    border-collapse: collapse;
+}
+/*table, th, td{
+    border: 1px solid;
+    border-color: black;
+}*/
+.col-size-xs{
+    table-layout: fixed;
+    width: 20%;        
+    vertical-align: top;      
+}
+.col-size-sm{
+    table-layout: fixed;
+    width: 30%;
+    vertical-align: top;           
+} 
+.col-size-md{
+    table-layout: fixed;
+    width: 40%;  
+    vertical-align: top;            
+} 
+.col-size-lg{
+    table-layout: fixed;
+    width: 70%;      
+    vertical-align: top;  
+}
+.col-size-xl{
+    table-layout: fixed;
+    width: 90%;      
+    vertical-align: top;  
+}
+
+.td-size-sm{
+    width: 15%;
+}
+.td-size-md{
+    width: 20%;
+}
+.td-size-lg{
+    width: 35%;
+}
+.td-custom{
+    width: 50%; 
+    height: 28px;
+}
+.td-custom-sm{
+    width: 20%;
+}
+
+.td-border-0 {
+    border: none; /* Ocultar bordes de las celdas */
+    border-collapse: collapse;
+}
+.fixed{
+    vertical-align: top;
+    margin: 0px;
+    padding: 0px;
+
+}
+.table-border{
+    border: 1px solid;
+    border-color: black;
+    border-collapse: collapse;
+    padding-left: 0px;
+    margin: 0px;            
+}
+.tr-border, .td-border{
+    /*height: 22px;*/
+    border: 1px solid;
+    border-color: black;
+    border-collapse: collapse;
+    padding-left: 0%;
+    margin: 0;            
+}
+.td-border-left {
+    border-left: 1px solid;
+    border-color: black;
+}
+.td-border-right {
+    border-right: 1px solid;
+    border-color: black;
+}
+.td-border-top {
+    border-top: 1px solid;
+    border-color: black;
+}
+.td-border-bottom {
+    border-bottom: 1px solid;
+    border-color: black;
+}
+
+/* TEXT START */
+.text-xxl-start {
+    font-size: 22px;
+    vertical-align: bottom;
+}
+.text-xl-start {
+    font-size: 18px;
+    vertical-align: bottom;
+}
+.text-lg-start {
+    font-size: 16px;
+    vertical-align: bottom;
+}         
+.text-md-start {
+    font-size: 12px;
+    vertical-align: bottom;
+}    
+.text-sm-start {
+    font-size: 10px;
+    vertical-align: bottom;
+} 
+
+/* TEXT END */
+.text-xxl-end {
+    font-size: 22px;
+    vertical-align: bottom;
+}
+.text-xl-end {
+    font-size: 18px;
+    vertical-align: bottom;
+}
+.text-lg-end {
+    font-size: 16px;
+    vertical-align: bottom;
+}         
+.text-md-end {
+    font-size: 12px;
+    vertical-align: bottom;
+}    
+.text-sm-end {
+    font-size: 10px;
+    vertical-align: bottom;
+}
+
+.text-start{
+    text-align: left;
+    padding-left:0px;
+}
+.text-left {
+    text-align: left;
+    padding-left: 5px;
+}
+.text-center {
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+    padding-right: 5px;
+}
+.text-end{
+    text-align: right;
+    padding-right:0px;     
+}
+
+/* FONT WEIGHT TEXT */
+.fw-bold{
+    font-weight:900;
+}
+.fw-bolder{
+    font-weight: bolder;
+}
+
+/* TEXT COLOR */
+.text-color-black{
+    color: black;
+}
+.text-color-grey{
+    color: grey;
+}     
+.text-color-red{
+    color: red;
+}
+
+/*GRID COLOR*/
+.grid-blue{
+    /*border-color: black;
+    font-size: 16px;*/
+    background-color: rgb(213, 215, 240);
+}
+
+/* TEXT LEGEND */
+.legend-ai{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+}
+
+/* TEXT IMG */
+.square {
+    width: 150px; /* Ancho de 150 píxeles */
+    height: 150px; /* Alto de 150 píxeles */
+    background: rgb(1, 18, 75); /* Fondo de color rojo */
+    border: 1px solid #000; /* Borde color negro y de 1 píxel de grosor */
+    margin: 5px auto; /* Centers the checkbox inside the td */
+    display: block; /* Ensures the margin works properly */
+}
+.squarefront {
+    width: 150px; /* Ancho de 150 píxeles */
+    height: 150px; /* Alto de 150 píxeles */
+    background: rgb(4, 159, 248); /* Fondo de color rojo */
+    border: 1px solid #000; /* Borde color negro y de 1 píxel de grosor */
+    margin: 5px auto; /* Centers the checkbox inside the td */
+    display: block; /* Ensures the margin works properly */
+}   
+.squareback {
+    width: 150px; /* Ancho de 150 píxeles */
+    height: 150px; /* Alto de 150 píxeles */
+    background: rgb(8, 201, 34); /* Fondo de color rojo */
+    border: 1px solid #000; /* Borde color negro y de 1 píxel de grosor */
+    margin: 5px auto; /* Centers the checkbox inside the td */
+    display: block; /* Ensures the margin works properly */
+}       
+
+/* FROM CHECK INPUT-OUTPUT */
+.form-check-input{
+    width: 16px;
+    height: 16px;
+    margin: 5px; /* Centers the checkbox inside the td */
+    display: block; /* Ensures the margin works properly */            
+}
+
+/******************/
+
+
+
+
+
+
+/*
+.table-border, .th-border, .td-border{
+    height: 22px;
+    border: 1px solid;
+    border-color: black;
+    border-collapse: collapse;
+    padding-left: 0%;
+    margin: 0;            
+}
+.table-border-bg, .th-border-bg, .td-border-bg{
+    height: 22px;
+    border: 1px solid;
+    border-color: black;
+    border-collapse: collapse;
+    background-color: rgb(203, 207, 248);    
+    padding-left: 0%; 
+    margin: 0;       
+}  */
+
+
+/*
+.table-personalization-side-right{
+    vertical-align: top;
+    width: 30%;
+    padding-left: 0px;
+    height: 50px;
+}
+.table-personalization3-side-right{
+    height: 100px;
+}
+.td-personalization1-side-left{***************
+    width: 55%; 
+    height: 48px;
+}
+.td-personalization1-side-rigth{*****************
+    width: 45%; 
+    height: 48px;
+}
+.td-personalization2-side-left{
+    vertical-align: top; 
+    width: 50%;
+}
+.td-personalization2-side-right{
+    vertical-align: top; 
+    width: 50%;
+}
+.td-personalization2-side-left-right{
+
+    width: 50%;
+    height: 46px;
+}   
+.table-personalization3-side-right-left{
+    width: 55%; 
+} 
+.table-personalization3-side-right-right{
+    width: 45%; 
+}         
+*/
